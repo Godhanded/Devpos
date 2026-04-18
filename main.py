@@ -14,7 +14,7 @@ def root():
 def health():
     return JSONResponse(
         status_code=200,
-        content={"message": "healthy"}
+        content={"message": "healthy", "cpu":"True","memory": 1300}
     )
 
 @app.get("/me")
@@ -22,8 +22,11 @@ def me():
     return JSONResponse(
         status_code=200,
         content={
-            "name": "Godand",
-            "email": "g@gmail.com",
+            "name": "Godand Brin Duburah",
+            "email": "writearinze00@gmail.com",
+            "github_url": "https://github.com/godhanded",
+            "repo_name": "Devpos",
             "github": "https://github.com/godhanded"
+
         }
     )
