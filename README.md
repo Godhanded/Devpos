@@ -75,7 +75,7 @@ Returns personal information.
 
 ---
 
-## 📦 Setup Running Locally
+## 📦 Setup Section - Running Locally
 
 ### 1. Clone repo
 
